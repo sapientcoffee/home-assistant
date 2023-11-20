@@ -1,0 +1,428 @@
+title: Home
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - type: entities
+        entities:
+          - light.bedroom
+          - light.bedroom_2
+        title: Bedroom
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.bedroom_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.bedroom_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+            - entity: scene.bedroom_relax
+              show_icon: true
+              show_name: true
+              name: Relax
+            - entity: scene.bedroom_arctic_aurora
+              show_icon: true
+              show_name: true
+              name: Arctic aurora
+            - entity: scene.bedroom_energize
+              show_icon: true
+              show_name: true
+              name: Energize
+            - entity: scene.bedroom_spring_blossom
+              show_icon: true
+              show_name: true
+              name: Spring blossom
+            - entity: scene.bedroom_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+            - entity: scene.bedroom_tropical_twilight
+              show_icon: true
+              show_name: true
+              name: Tropical twilight
+            - entity: scene.bedroom_savanna_sunset
+              show_icon: true
+              show_name: true
+              name: Savanna sunset
+            - entity: scene.bedroom_read
+              show_icon: true
+              show_name: true
+              name: Read
+            - entity: scene.bedroom_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+      - type: grid
+        square: false
+        columns: 1
+        cards:
+          - type: entities
+            entities:
+              - entity: light.dining_room_back
+                name: '- Back'
+              - entity: light.dining_room_front
+                name: '- Front'
+              - light.dining_room
+            title: Dining Room
+            footer:
+              type: buttons
+              entities:
+                - entity: scene.dining_room_bright
+                  show_icon: true
+                  show_name: true
+                  name: Bright
+                - entity: scene.dining_room_dimmed
+                  show_icon: true
+                  show_name: true
+                  name: Dimmed
+                - entity: scene.dining_room_nightlight
+                  show_icon: true
+                  show_name: true
+                  name: Nightlight
+          - type: media-control
+            entity: media_player.dining_room
+      - type: entities
+        entities:
+          - light.front_door
+          - light.outside_front
+        title: Front Door
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.front_door_phantom
+              show_icon: true
+              show_name: true
+              name: Phantom
+            - entity: scene.front_door_spring_blossom
+              show_icon: true
+              show_name: true
+              name: Spring blossom
+            - entity: scene.front_door_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.front_door_arctic_aurora
+              show_icon: true
+              show_name: true
+              name: Arctic aurora
+            - entity: scene.front_door_halloween
+              show_icon: true
+              show_name: true
+              name: Halloween
+            - entity: scene.front_door_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+            - entity: scene.front_door_relax
+              show_icon: true
+              show_name: true
+              name: Relax
+            - entity: scene.front_door_savanna_sunset
+              show_icon: true
+              show_name: true
+              name: Savanna sunset
+            - entity: scene.front_door_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.front_door_tropical_twilight
+              show_icon: true
+              show_name: true
+              name: Tropical twilight
+            - entity: scene.front_door_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+            - entity: scene.front_door_read
+              show_icon: true
+              show_name: true
+              name: Read
+            - entity: scene.front_door_energize
+              show_icon: true
+              show_name: true
+              name: Energize
+      - type: media-control
+        entity: media_player.garage
+      - type: entities
+        entities:
+          - light.garage_external
+          - light.garage_light_bottom
+          - light.garage_light_top
+        title: Garage External
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.garage_external_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+            - entity: scene.garage_external_arctic_aurora
+              show_icon: true
+              show_name: true
+              name: Arctic aurora
+            - entity: scene.garage_external_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.garage_external_read
+              show_icon: true
+              show_name: true
+              name: Read
+            - entity: scene.garage_external_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+            - entity: scene.garage_external_savanna_sunset
+              show_icon: true
+              show_name: true
+              name: Savanna sunset
+            - entity: scene.garage_external_tropical_twilight
+              show_icon: true
+              show_name: true
+              name: Tropical twilight
+            - entity: scene.garage_external_energize
+              show_icon: true
+              show_name: true
+              name: Energize
+            - entity: scene.garage_external_haloween
+              show_icon: true
+              show_name: true
+              name: Haloween
+            - entity: scene.garage_external_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.garage_external_spring_blossom
+              show_icon: true
+              show_name: true
+              name: Spring blossom
+            - entity: scene.garage_external_relax
+              show_icon: true
+              show_name: true
+              name: Relax
+      - type: entities
+        entities:
+          - light.behind_garage
+          - light.fence
+          - light.garden
+          - light.hue_amarant_wall_washer_1
+          - light.spotlight
+          - light.wall_light
+        title: Garden
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.garden_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.garden_savanna_sunset
+              show_icon: true
+              show_name: true
+              name: Savanna sunset
+            - entity: scene.garden_relax
+              show_icon: true
+              show_name: true
+              name: Relax
+            - entity: scene.garden_arctic_aurora
+              show_icon: true
+              show_name: true
+              name: Arctic aurora
+            - entity: scene.garden_spring_blossom
+              show_icon: true
+              show_name: true
+              name: Spring blossom
+            - entity: scene.garden_tropical_twilight
+              show_icon: true
+              show_name: true
+              name: Tropical twilight
+            - entity: scene.garden_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+            - entity: scene.garden_read
+              show_icon: true
+              show_name: true
+              name: Read
+            - entity: scene.garden_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.garden_energize
+              show_icon: true
+              show_name: true
+              name: Energize
+            - entity: scene.garden_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+      - type: entities
+        entities:
+          - light.gym
+          - light.hue_play_1
+          - light.hue_play_2
+        title: Gym
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.gym_disturbia
+              show_icon: true
+              show_name: true
+              name: Disturbia
+            - entity: scene.gym_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+            - entity: scene.gym_energise
+              show_icon: true
+              show_name: true
+              name: Energise
+      - type: entities
+        entities:
+          - light.hall
+          - light.hall_2
+          - sensor.speedtest_download
+          - sensor.speedtest_ping
+          - sensor.speedtest_upload
+        title: Hall
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.hall_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.hall_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.hall_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+      - type: grid
+        square: false
+        columns: 1
+        cards:
+          - type: entities
+            entities:
+              - remote.google_tv
+              - remote.living_room
+            title: Living Room
+          - type: media-control
+            entity: media_player.google_tv_2
+          - type: media-control
+            entity: media_player.living_room
+      - type: entities
+        entities:
+          - light.living_room_back
+          - light.living_room_front
+          - light.lounge
+        title: Lounge
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.lounge_relax
+              show_icon: true
+              show_name: true
+              name: Relax
+            - entity: scene.lounge_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+            - entity: scene.lounge_spring_blossom
+              show_icon: true
+              show_name: true
+              name: Spring blossom
+            - entity: scene.lounge_concentrate
+              show_icon: true
+              show_name: true
+              name: Concentrate
+            - entity: scene.lounge_read
+              show_icon: true
+              show_name: true
+              name: Read
+            - entity: scene.lounge_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.lounge_arctic_aurora
+              show_icon: true
+              show_name: true
+              name: Arctic aurora
+            - entity: scene.lounge_tropical_twilight
+              show_icon: true
+              show_name: true
+              name: Tropical twilight
+            - entity: scene.lounge_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.lounge_savanna_sunset
+              show_icon: true
+              show_name: true
+              name: Savanna sunset
+            - entity: scene.lounge_energize
+              show_icon: true
+              show_name: true
+              name: Energize
+      - type: media-control
+        entity: media_player.move
+      - type: media-control
+        entity: media_player.office
+      - type: entities
+        entities:
+          - light.office_landing
+          - light.top_floor_landing
+        title: Office Landing
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.office_landing_nightlight
+              show_icon: true
+              show_name: true
+              name: Nightlight
+            - entity: scene.office_landing_bright
+              show_icon: true
+              show_name: true
+              name: Bright
+            - entity: scene.office_landing_glowing_grins
+              show_icon: true
+              show_name: true
+              name: Glowing grins
+            - entity: scene.office_landing_dimmed
+              show_icon: true
+              show_name: true
+              name: Dimmed
+      - type: entities
+        entities:
+          - person.rob_edwards
+      - type: entities
+        entities:
+          - binary_sensor.music_area
+        title: Binary Sensor
+      - type: grid
+        square: false
+        columns: 1
+        cards:
+          - type: media-control
+            entity: media_player.bedroom_hub
+          - type: media-control
+            entity: media_player.google_tv
+          - type: media-control
+            entity: media_player.kitchen_display
+          - type: media-control
+            entity: media_player.office_speaker
+      - type: weather-forecast
+        entity: weather.forecast_home
+        show_forecast: false
+      - type: entities
+        entities:
+          - entity: sensor.electricity_maps_co2_intensity
+            name: CO2 intensity
+          - entity: sensor.electricity_maps_grid_fossil_fuel_percentage
+            name: Grid fossil fuel percentage
+        title: Electricity Maps
